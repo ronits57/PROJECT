@@ -1,0 +1,36 @@
+/Project/
+|
+|-- app/  (This folder contains main application)
+|   |
+|   |-- templates/  (All your HTML files go here)
+|   |   |-- layout.html         (Base template with navbar/footer)
+|   |   |-- index.html          (landing page)
+|   |   |-- login.html          (User login/signup page)
+|   |   |-- dashboard.html      (User's main page after login)
+|   |   |-- modules.html        (To display improvement modules)
+|   |   |-- chat.html           (The page for the chatbot/live help)
+|   |
+|   |-- static/  (All "static" files like CSS, JS, images go here)
+|   |   |
+|   |   |-- css/
+|   |   |   |-- style.css       (main stylesheet)
+|   |   |
+|   |   |-- js/
+|   |   |   |-- main.js         (For general website interactivity)
+|   |   |   |-- chat.js         (JavaScript specific to the chat feature)
+|   |   |
+|   |   |-- images/
+|   |       |-- logo.png
+|   |       |-- background.jpg
+|   |
+|   |-- __init__.py             (Initializes Flask app and its extensions)
+|   |-- routes.py               (Defines all the URLs and what Python code runs for each)
+|   |-- models.py               (Defines database tables like User, Progress, etc.)
+|   |-- chatbot_logic.py        (The Python code for simple rule-based chatbot)
+|
+|-- run.py                      (A simple script to start and run web server)
+|
+|-- requirements.txt            (Lists all Python libraries needed, e.g., Flask, Flask-SocketIO)
+|
+|-- project.db                  (SQLite database file will be created here)
+
